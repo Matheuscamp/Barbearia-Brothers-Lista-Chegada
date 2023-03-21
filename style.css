@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap");
+body {
+  background-color: #010400;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+label {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+button {
+  height: 56px;
+  border-radius: 16px;
+  background-color: #ebb608;
+  border-width: 0px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+input {
+  background-color: #f4f4f9;
+  width: 100%;
+  height: 48px;
+  border-color: #010400;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  color: #010400;
+  font-size: 16px;
+  padding: 6px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+select {
+  background-color: #f4f4f9;
+  width: 100%;
+  height: 48px;
+  border-color: #010400;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  color: #010400;
+  font-size: 16px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.mt {
+  margin-top: 16px;
+}
+.mt.larger {
+  margin-top: 32px;
+}
+.mt.large {
+  margin-top: 24px;
+}
+.mt.small {
+  margin-top: 12px;
+}
+.mt.smaller {
+  margin-top: 6px;
+}
+.logo {
+  margin-left: 40%;
+}
+.tabela-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 122px;
+  box-sizing: border-box;
+}
+.tabela-conteudo-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 24px;
+  height: 600px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.tabela-conteudo-header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  box-sizing: border-box;
+}
+.modal-background {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(1, 4, 0, 0.2);
+}
+.modal-conteudo {
+  width: 480px;
+  height: 100%;
+  background-color: #f4f4f9;
+  padding: 24px;
+}
+.modal-conteudo-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
