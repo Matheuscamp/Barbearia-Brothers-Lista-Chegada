@@ -1,5 +1,7 @@
 # Order of Arrival
 
+<img src="https://github.com/Matheuscamp/Barbearia-Brothers-Lista-Chegada/blob/main/imgs/Print%20projeto%20Ordem%20Chegada%20barbearia.png" alt="Barber-list">
+
 ## Introduction
 
 This is a website for registering customers on a first-come, first-served basis at a barbershop made with JavaScript, HTML and CSS.
